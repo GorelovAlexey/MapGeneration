@@ -139,13 +139,11 @@ namespace Assets.Scripts
                         // TBH IDK how it supposed to work for edges 
                         if (x1 < 0 || x1 >= width)
                         {
-                            continue;
                             x1 = x;
                         }
 
                         if (y1 < 0 || y1 >= height)
                         {
-                            continue;
                             y1 = y;
                         }
                         var heightMapValue = heightMap[x1, y1];
